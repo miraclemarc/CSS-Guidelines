@@ -1,4 +1,4 @@
-# Algemene CSS adviezen en optimale werkmethoden
+# Algemene CSS adviezen en richtlijnen
 
 ---
 
@@ -63,29 +63,32 @@ daarna gaan we theoretisch in op de aanpak van het schrijven en ontwerpen van CS
 
 ---
 
-## CSS Document Anatomy
+## CSS Document Anatomie
 
-No matter the document, we must always try and keep a common formatting. This
-means consistent commenting, consistent syntax and consistent naming.
+Welk document dan ook, we zullen (waar mogelijk) altijd dezelfde opmaak gebruiken. 
+Met dezelfde opmaak bedoelen we: consistent commentaar toevoegen, consistente 
+syntax en consistente naamgeving.
 
-### General
+### Algemeen
 
-Limit your stylesheets to a maximum 80 character width where possible.
-Exceptions may be gradient syntax and URLs in comments. That’s fine, there’s
-nothing we can do about that.
+Beperk stylesheets zoveel mogelijk tot een maximum van 80 tekens breed. Uitzonderingen 
+zijn de syntax voor kleurverlopen (gradients) en URLS in de commentaarblokken. Dit is 
+acceptabel, hier kunnen we verder niets aan doen.
 
-I prefer four (4) space indents over tabs and write multi-line CSS.
+Gebruik vier (4) spaties om in te springen en geen tabs. Schrijf CSS uit over meerdere regels.
 
-### One file vs. many files
+### Eén bestand vs. meerdere bestanden
 
-Some people prefer to work with single, large files. This is fine, and by
-sticking to the following guidelines you’ll encounter no problems. Since moving
-to Sass I have started sharding my stylesheets out into lots of tiny includes.
-This too is fine… Whichever method you choose, the following rules and
-guidelines apply. The only notable difference is with regards our table of
-contents and our section titles. Read on for further explanation…
+Sommige mensen vinden het prettig om één enkel, zeer groot CSS werkbestand te 
+gebruiken. Dit werkt uiteraard prima, zolang de onderstaande richtlijnen strikt 
+gevolgd worden. Sinds ik SASS gebruik fragmenteer ik mijn stylesheets in veel 
+kleine includes. Ook dit werkt prima... zolang de 'bezoeker' maar een enkele 
+stylesheet geserveerd krijgt (dit behandelen we hier echter verder niet).
+Welke methode ook wordt gebruikt, de onderstaande richtlijnen zijn van toepassing.
+Er is slechts een klein verschil in inhoudsopgave en sectie-titels. Hieronder 
+staat e.e.a. omschreven in meer detail
 
-### Table of contents
+### Inhoudsopgave
 
 At the top of stylesheets, I maintain a table of contents which will detail the
 sections contained in the document, for example:

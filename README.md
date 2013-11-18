@@ -1,29 +1,30 @@
-# General CSS notes, advice and guidelines
+# Algemene CSS adviezen en optimale werkmethoden
 
 ---
 
-## Translations
+## Vertalingen
 
-* [Russian](https://github.com/matmuchrapna/CSS-Guidelines/blob/master/README%20Russian.md)
-* [Chinese](https://github.com/chadluo/CSS-Guidelines/blob/master/README.md)
-* [French](https://github.com/flexbox/CSS-Guidelines/blob/master/README.md)
-* [Japanese](https://github.com/kiwanami/CSS-Guidelines/blob/master/README.ja.md)
+* [Engels] (https://github.com/csswizardry/CSS-Guidelines/blob/master/README.md)
+* [Russisch](https://github.com/matmuchrapna/CSS-Guidelines/blob/master/README%20Russian.md)
+* [Chinees](https://github.com/chadluo/CSS-Guidelines/blob/master/README.md)
+* [Frans](https://github.com/flexbox/CSS-Guidelines/blob/master/README.md)
+* [Japanes](https://github.com/kiwanami/CSS-Guidelines/blob/master/README.ja.md)
 
 ---
 
-In working on large, long running projects with dozens of developers, it is
-important that we all work in a unified way in order to, among other things:
+Wanneer je met tientallen developers werkt aan een groot en langlopend project, 
+dan is het van belang dat iedereen zijn CSS code op een uniforme manier aanlevert.
+Ons doel:
 
-* Keep stylesheets maintainable
-* Keep code transparent and readable
-* Keep stylesheets scalable
+* CSS stylesheets beheersbaar houden
+* CSS code transparent en leesbaar houden
+* CSS stylesheets schaalbaar maken
 
-There are a variety of techniques we must employ in order to satisfy these
-goals.
+Om de bovenstaande doelen enigzins haalbaar te maken, is het van belang dat we 
+een combinatie van bestaande technieken en vaardigheden toepassing.
 
-The first part of this document will deal with syntax, formatting and CSS
-anatomy, the second part will deal with approach, mindframe and attitude toward
-writing and architecting CSS. Exciting, huh?
+Allereerst zullen we praktisch ingaan op de syntax, opmaak en CSS anatomie; 
+daarna gaan we theoretisch in op de aanpak van het schrijven en ontwerpen van CSS. 
 
 ## Contents
 

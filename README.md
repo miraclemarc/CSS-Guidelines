@@ -8,7 +8,7 @@
 * [Russisch](https://github.com/matmuchrapna/CSS-Guidelines/blob/master/README%20Russian.md)
 * [Chinees](https://github.com/chadluo/CSS-Guidelines/blob/master/README.md)
 * [Frans](https://github.com/flexbox/CSS-Guidelines/blob/master/README.md)
-* [Japanes](https://github.com/kiwanami/CSS-Guidelines/blob/master/README.ja.md)
+* [Japans](https://github.com/kiwanami/CSS-Guidelines/blob/master/README.ja.md)
 
 ---
 
@@ -28,7 +28,7 @@ daarna gaan we theoretisch in op de aanpak van het schrijven en ontwerpen van CS
 
 ## Contents
 
-* [CSS document anatomy](#css-document-anatomy)
+* [Anatomie van een CSS document](#anatomie-van-een-css-document)
   * [General](#general)
   * [One file vs. many files](#one-file-vs-many-files)
   * [Table of contents](#table-of-contents)
@@ -63,7 +63,7 @@ daarna gaan we theoretisch in op de aanpak van het schrijven en ontwerpen van CS
 
 ---
 
-## CSS Document Anatomie
+## Anatomie van een CSS document
 
 Welk document dan ook, we zullen (waar mogelijk) altijd dezelfde opmaak gebruiken. 
 Met dezelfde opmaak bedoelen we: consistent commentaar toevoegen, consistente 
